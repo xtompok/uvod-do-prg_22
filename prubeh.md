@@ -13,7 +13,13 @@
 * převod stupňů na formát DMS
 * funkce a jejich volání
 
-## 3. cvičení (plán)
+## 3. cvičení
 * želví grafika
 * cykly
 * hádej číslo
+
+## 4. cvičení (plán)
+ * hádej číslo (dokončení)
+ * Git
+ * zadání 1. domácího úkolu
+ * formátování řetězců (úvod)
