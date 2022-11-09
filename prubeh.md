@@ -18,8 +18,19 @@
 * cykly
 * hádej číslo
 
-## 4. cvičení (plán)
+## 4. cvičení
  * hádej číslo (dokončení)
  * Git
  * zadání 1. domácího úkolu
  * formátování řetězců (úvod)
+
+## 5. cvičení
+ * `break` a `continue`
+ * formátování řetězců
+ * píšeme vlastní funkce (úvod)
+
+## 6. cvičení (plán)
+ * vlastní funkce (pokračování)
+ * výjimky
+ * seznamy
+ * soubory
