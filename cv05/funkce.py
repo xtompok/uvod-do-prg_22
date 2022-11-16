@@ -33,3 +33,14 @@ print(umocni(4))
 
 # Napište funkci potvrd()
 # Funkce se pta uzivatele tak dlouho, dokud nezada ano/ne, to vrati jako bool
+
+def potvrd() -> bool:
+	while True:
+		vstup = input("Zadej ano nebo ne: ")
+		vstup = vstup.lower()
+		if vstup == "ano":
+			return True
+		elif vstup == "ne":
+			return False
+	
+print(potvrd())

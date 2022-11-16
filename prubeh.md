@@ -29,8 +29,15 @@
  * formátování řetězců
  * píšeme vlastní funkce (úvod)
 
-## 6. cvičení (plán)
+## 6. cvičení
  * vlastní funkce (pokračování)
  * výjimky
+
+## 7. cvičení (plán)
  * seznamy
  * soubory
+ * CSV
+ * hádej město
+
+## 8. cvičení (plán)
+ * zadání 2. domácího úkolu
