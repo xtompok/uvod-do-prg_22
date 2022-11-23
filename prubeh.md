@@ -33,11 +33,11 @@
  * vlastní funkce (pokračování)
  * výjimky
 
-## 7. cvičení (plán)
+## 7. cvičení
  * seznamy
  * soubory
- * CSV
- * hádej město
 
 ## 8. cvičení (plán)
+ * CSV
  * zadání 2. domácího úkolu
+ * hádej město (úvod)

@@ -1,0 +1,2 @@
+Toto je první řádek souboru.
+Toto je druhý řádek souboru.
