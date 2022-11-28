@@ -34,6 +34,10 @@ Pokud si potřebujete jen něco menšího vyzkoušet, tak není potřeba instalo
 Cvičení jsou (zatím) prezenční, konzultace jsou možné po cvičení nebo online, v takovém případě mi prosím napište [email](mailto:xtompok@gmail.com).   
 
 ## Tipy a rady pro čitelný kód
+
+### Často opakované chyby
+Viz [samostatný soubor](coch.md).
+
 ### Magické konstanty
 Pokud ve svém kódu používáte nějaké konstanty, ať už matematické (např. pi),
 fyzikální nebo jste si jen pevně zvolili délku seznamu či např. rozestup
