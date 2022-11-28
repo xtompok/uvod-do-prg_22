@@ -6,8 +6,11 @@ spočítá roční a sedmidenní průměry. Program bude neinteraktivní.
 
 ### Vstup
 Program načte CSV s průměrnými denními průtoky zvolené řeky ze souboru pojmenovaného `vstup.csv`.
-Data můžete stahovat ze [stránek
-ČHMÚ](https://www.chmi.cz/historicka-data/hydrologie/denni_data/denni-data-dle-z.-123-1998-Sb#). 
+Data můžete stahovat z [IS
+VODA](https://isvs.chmi.cz/ords/f?p=11002%3A4%3A9680270451544%3A%3ANO%3A%3A%3A&lon=15.4&lat=49.9&scale=1935360),
+zde si vyberete vodoměrnou stanici a v sekci Časové řady si vyberete *Průměrné
+denní průtoky* a vpravo kliknete na stahovací ikonku ve sloupci *Data*. Ze
+staženého ZIPu vás zajímá soubor, jehož jméno končí na `_Data.csv`. 
 Pokud vstup nemá délku násobek sedmi, tak poslední průměr program spočítá z
 tolika dat, kolik je k dispozici. Formát souboru je popsán v souboru obsahujícím
 řetězem `Metadata` ve staženém archivu, pro všechny toky a místa je stejný.
