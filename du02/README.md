@@ -17,23 +17,23 @@ tolika dat, kolik je k dispozici. Formát souboru je popsán v souboru obsahují
 
 #### Příklad vstupu
 ```
-139000,QD,1980,11,01,   0.6700
-139000,QD,1980,11,02,   0.6700
-139000,QD,1980,11,03,   0.6700
-139000,QD,1980,11,04,   0.6700
-139000,QD,1980,11,05,   0.6700
-139000,QD,1980,11,06,   0.6700
-139000,QD,1980,11,07,   0.6700
-139000,QD,1980,11,08,   0.6700
-139000,QD,1980,11,09,   0.6700
-139000,QD,1980,11,10,   0.6700
-139000,QD,1980,11,11,   0.5800
-139000,QD,1980,11,12,   0.5800
-139000,QD,1980,11,13,   0.5800
-139000,QD,1980,11,14,   0.5800
-139000,QD,1980,11,15,   0.5800
-139000,QD,1980,11,16,   3.2700
-139000,QD,1980,11,17,   3.0000
+139000,QD,01.11.1980,   0.6700
+139000,QD,02.11.1980,   0.6700
+139000,QD,03.11.1980,   0.6700
+139000,QD,04.11.1980,   0.6700
+139000,QD,05.11.1980,   0.6700
+139000,QD,06.11.1980,   0.6700
+139000,QD,07.11.1980,   0.6700
+139000,QD,08.11.1980,   0.6700
+139000,QD,09.11.1980,   0.6700
+139000,QD,10.11.1980,   0.6700
+139000,QD,11.11.1980,   0.5800
+139000,QD,12.11.1980,   0.5800
+139000,QD,13.11.1980,   0.5800
+139000,QD,14.11.1980,   0.5800
+139000,QD,15.11.1980,   0.5800
+139000,QD,16.11.1980,   3.2700
+139000,QD,17.11.1980,   3.0000
 ```
 
 ### Výstup
@@ -136,7 +136,7 @@ maximální a kdy byl průtok minimální a jaký tento průtok byl.
 ### Detekce děr a chyb v datech (1 b)
 Program při zpracování kontroluje, jestli v datech nechybí nějaký den, nebo se
 neobjevil nulový nebo záporný průtok. Program vypíše, které dny v datech chyběly
-a ve kterých dnech došlo k nulovému nebo zápornému průtoku.
+a ve kterých dnech došlo k nulovému nebo zápornému průtoku. Může se vám hodit modul [`datetime`](https://docs.python.org/3/library/datetime.html)
 
 ### (Bez)Chybné vstupy (2 b)
 Navrhněte korektní nebo nekorektní vstupní soubor, se kterým by se program měl
