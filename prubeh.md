@@ -41,7 +41,15 @@
    * [Seznamový tahák](https://pyvec.github.io/cheatsheets/lists/lists-cs.pdf)
  * soubory
 
-## 8. cvičení (plán)
+## 8. cvičení
  * CSV
  * zadání 2. domácího úkolu
  * hádej město (úvod)
+
+### 9. cvičení
+ * hádej město (dokončení)
+
+### 10.cvičení (plán)
+ * slovníky
+ * frekvenční analýza
+ * stahování z webu
