@@ -12,3 +12,34 @@ nějaké proměnné používané mimo funkci a naopak že nebude vyžadovat exis
 specificky pojmenovaných proměnných. Výjimky jsou možné v dobře odůvodněných případech,
 pak je ale vhodné do dokumentačního komentáře k funkci napsat, jaké proměnné a jaké
 hodnoty v nich funkce očekává.
+
+## 2. Chybí uživatelská dokumentace
+Viz [README.md](README.md). Pro 2. úkol by měla obsahovat:
+ - co program dělá (tedy efektivně opsané zadání)
+ - jméno vstupního souboru
+ - požadovaný formát vstupního souboru (sloupce, oddělovače)
+ - jména a strukturu výstupních souborů
+
+## 3. Vývojářská dokumentace zbytečně konkrétní
+Ve vývojářské dokumentaci není potřeba popisovat druh cyklu, jména proměnných,
+čísla řádků apod. Vývojářská dokumentace má ve zkratce popisovat, jak program
+funguje, číst jí by mělo být výrazně rychlejší, než si přečíst zdroják.
+Například místo věty *Program na řádku 42 vyrobí reader a pak pomocí for cyklu
+na řádcích 43--48 přiřazuje třetí sloupec do seznamu `bflm` a pomocí funkce
+`try` je implementována ochrana proti chybě ValueError.* je vhodnější napsat
+*Pomocí objektu `csv.reader` procházíme v cyklu soubor a průtok si ukládáme do
+seznamu. Pokud průtok není číslo, program vypíše chybovou hlášku a skončí.*
+Případnému navazujícímu vývojáři podá toto mnohem jasnější představu o tom, co
+program skutečně dělá a když uvidí zdroják, tak ho bude snáze chápat.
+
+## 4. Program spadne na prázdném vstupu / vstupním souboru
+Pokud program bere nějaký vstup, je třeba předpokládat, že se uživatel splete a
+vstupní soubor bude prázdný. V takovémto případě by měl program vypsat chybovou
+hlášku a skončit, protože stejně nemá, jak by to řešil.
+
+## 5. Program spadne na neexistujícím souboru / souboru ke kterému nemá přístup
+Pokud program čte nebo vytváří nějaké soubory, tak by se měl umět vypořádat s
+tím, že očekávaný vstupní soubor neexistuje, nebo že vstupní či výstupní soubor
+nejde vytvořit / otevřít z důvodů přístupových práv.
+
+
