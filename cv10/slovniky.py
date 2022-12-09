@@ -25,7 +25,7 @@ for hodnota in den2cislo.values():
 for (klic,hodnota) in den2cislo.items():
 	print(f"{klic} = {hodnota}")
 
-# je klíč ve slovníku
+# je klíč ve slovníku?
 if "neděle" in den2cislo:
 	print("Neděle tam je")
 else:
@@ -36,27 +36,46 @@ else:
 # zadaném textu kolikrát vyskytoval.
 # Vstup: "ahoj hugo"
 # Výstup: a: 1, h: 2, o: 2, j: 1, u:1, g:1,  :1 
+
+# Vytvoříme si slovník písmen, co jsme již potkali
 letters = {}
 text = input("Zadej text:")
 for ch in text:
+	# Pokud již písmeno ve slovníku máme, zvýšíme počet jeho výskytů o 1
 	if ch in letters:
 		letters[ch] += 1
+	# jinak ho přidám do slovníku s jedním výskytem
 	else:
 		letters[ch] = 1
+
+# Toto není vhodný příklad vypisování slovníku v rozumném formátu, nepoužívejte to
+# Převedeme slovník na řetězec
 str_letters = str(letters)
+# a zahodíme v něm apostrofy
 str_letters = str_letters.replace("'","")
 print(str_letters)
 
+# Varianta s defaultdict
+# Vytvoříme slovník, který když nějaký klíč nezná, zavolá funkci int() a vytvoří
+# klíč s hodnotou rovnou výsledku té funkce (zde 0)
 default_letters = defaultdict(int)
 #text = input("Zadej text:")
 for ch in text:
+	# Zde stačí přičíst 1 k výskytům, protože defaultdict udělá sám klíč s
+	# hodnotou 0
 	default_letters[ch] += 1
 for (key,val) in default_letters.items():
 	print(f"{key}: {val}, ",end="")
 print()
 
+# Varianta s dict.get()
+# Vytvoříme obyčejný prázdný slovník
 letters2 = {}
 for ch in text:
+	# Metoda .get(<klic>,<default>) zkusí ze slovníku vytáhnout <klic>, když
+	# neexistuje, tak vrátí <default>, ale slovník nemodifikuje. My k tomu
+	# přičteme jedničku a výsledek přiřadíme k danému klíči (tedy ho buď
+	# vytvoříme nebo aktualizujeme
 	letters2[ch] = letters2.get(ch,0) + 1
 print(letters2)
 	

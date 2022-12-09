@@ -49,7 +49,14 @@
 ### 9. cvičení
  * hádej město (dokončení)
 
-### 10.cvičení (plán)
+### 10.cvičení
  * slovníky
  * frekvenční analýza
  * stahování z webu
+
+### 11. cvičení (plán)
+ * stahování z webu (dokončení)
+ * převod souřadnic mezi souřadnicovými systémy
+ * vlastní moduly
+ * zadání 3. DÚ
+ * rekurze
