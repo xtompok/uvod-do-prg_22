@@ -43,3 +43,8 @@ tím, že očekávaný vstupní soubor neexistuje, nebo že vstupní či výstup
 nejde vytvořit / otevřít z důvodů přístupových práv.
 
 
+## 6. Není vhodné pojmenovávat proměnné `min` a `max`
+`min` a `max` jsou funkce počítající minimum a maximum ze seznamu, takhle to
+bude fungovat, ale čtenáře by to mohlo splést. Navíc je pak nepůjde v programu
+(snadno) použít.
+
