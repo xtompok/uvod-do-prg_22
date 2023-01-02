@@ -48,3 +48,7 @@ nejde vytvořit / otevřít z důvodů přístupových práv.
 bude fungovat, ale čtenáře by to mohlo splést. Navíc je pak nepůjde v programu
 (snadno) použít.
 
+## 7. Lépe mít `try` blok pro každý soubor zvlášť
+Pro uživatele je lepší, když se dozví, který vstupní soubor je vadný než když
+se jen dozví, že nějaký. Pokud se načítání jednoho souboru navíc udělá jako
+funkce, tak pak kód ani zbytečně nebobtná.
