@@ -52,3 +52,8 @@ bude fungovat, ale čtenáře by to mohlo splést. Navíc je pak nepůjde v prog
 Pro uživatele je lepší, když se dozví, který vstupní soubor je vadný než když
 se jen dozví, že nějaký. Pokud se načítání jednoho souboru navíc udělá jako
 funkce, tak pak kód ani zbytečně nebobtná.
+
+## 8. V Gitu jsou velké soubory
+Je v pořádku mít v repozitáři testovací data, ale měla by mít jednotky až
+desítky položek a ne několik MB. Zbytečně to zabírá místo a pro otestování
+funkčnosti to není potřeba.
