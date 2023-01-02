@@ -57,3 +57,8 @@ funkce, tak pak kód ani zbytečně nebobtná.
 Je v pořádku mít v repozitáři testovací data, ale měla by mít jednotky až
 desítky položek a ne několik MB. Zbytečně to zabírá místo a pro otestování
 funkčnosti to není potřeba.
+
+## 9. Transformační objekt vytvářet jen jednou
+Transoformační objekt mezi souřadnicovými systémy je výpočetně náročné
+vytvořit, proto je lepší ho v programu vytvořit pouze jednou a pak ho jen
+předávat tam, kde je potřeba. V opačném případě je pak program zbytečně pomalý.
