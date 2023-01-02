@@ -54,9 +54,18 @@
  * frekvenční analýza
  * stahování z webu
 
-### 11. cvičení (plán)
+### 11. cvičení
  * stahování z webu (dokončení)
  * převod souřadnic mezi souřadnicovými systémy
  * vlastní moduly
  * zadání 3. DÚ
+
+### 12. cvičení
  * rekurze
+ * kreslení Kochovy vločky
+ * kreslení stromů rekurzí
+
+### 13. cvičení (plán)
+ * půlení intervalu
+ * zadání 4. DÚ
+ * co bude v Programování II
