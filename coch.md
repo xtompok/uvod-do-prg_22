@@ -68,3 +68,10 @@ Dokumentace by měla obsahovat pro každý vstupní soubor:
  - formát souboru
  - souřadnicový systém (pokud se jedná o geodata)
  - požadované sloupce / atributy a jejich význam
+
+## 11. Dokumentace je zbytečně detailní 
+Není potřeba do dokumentace psát, že se ošetřuje pomocí `try` a `except`, stačí
+napsat, že se ošetřuje, zda má program práva k souboru. Obdobně stačí napsat,
+že se procházi věci v cyklu, není potřeba udávat, jakého je typu, toto jsou
+všechno detaily jasné při pohledu do zdrojáku a čtenáři to nedává žádnou
+zajímavou informaci.
