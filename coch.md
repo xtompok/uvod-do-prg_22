@@ -62,3 +62,9 @@ funkčnosti to není potřeba.
 Transoformační objekt mezi souřadnicovými systémy je výpočetně náročné
 vytvořit, proto je lepší ho v programu vytvořit pouze jednou a pak ho jen
 předávat tam, kde je potřeba. V opačném případě je pak program zbytečně pomalý.
+
+## 10. Dokumentace neobsahuje dostatečný popis vstupních souborů
+Dokumentace by měla obsahovat pro každý vstupní soubor:
+ - formát souboru
+ - souřadnicový systém (pokud se jedná o geodata)
+ - požadované sloupce / atributy a jejich význam
